@@ -1,15 +1,16 @@
-import React, { Component } from 'react';
+import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Button from 'react-bootstrap/Button';
+import ProductList from './components/ProductList';
 
-class App extends Component {
-  render() {
+
+
+function App() {
     return (
       <div className="container">
-        <Button variant="dark">Home page button</Button>
+        <h1>Sticker Seller</h1>
+        <ProductList />
       </div>
     )
   }
-}
 
 export default App;
